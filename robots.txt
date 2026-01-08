@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /silk.html
+Disallow: /silk-*
+
+Sitemap: https://magdahamilton.dev/sitemap.xml
