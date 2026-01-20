@@ -30,31 +30,6 @@
     <link rel="canonical" href="https://magdahamilton.dev">
     <link rel="stylesheet" href="styles.css">
     
-    <style>
-        /* Mobile-specific styling for centered + sign */
-        @media (max-width: 768px) {
-            .subtitle {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                text-align: left;
-            }
-            
-            .subtitle .plus-sign {
-                display: block;
-                margin: 0.3em 0;
-                align-self: center;
-            }
-        }
-        
-        /* Desktop keeps it inline */
-        @media (min-width: 769px) {
-            .subtitle .plus-sign {
-                display: inline;
-            }
-        }
-    </style>
-    
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -106,7 +81,11 @@
     <div class="container">
         <section id="about">
             <h1>Magda Hamilton</h1>
-            <p class="subtitle">Graphics and Design Engineer <span class="plus-sign">+</span> Creative Technologist</p>
+            <p class="subtitle">
+                <span class="subtitle-left">Graphics & Design<br>Engineer</span>
+                <span class="animated-plus">+</span>
+                <span class="subtitle-right">Creative<br>Technologist</span>
+            </p>
           <div class="bio">
     <p>I design and engineer systems where interaction, computation, and meaning converge.</p>
     <p>My work explores how software can move beyond flat interfaces—using physics, language, and systems thinking to create experiences that are felt, not just used. I work at the intersection of design, engineering, and research, building tools and prototypes that make complex ideas tangible.</p>

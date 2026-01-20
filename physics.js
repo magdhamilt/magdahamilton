@@ -245,3 +245,5 @@ function animate() {
 }
 
 animate();
+
+// Subtitle alignment is now handled by CSS flexbox
