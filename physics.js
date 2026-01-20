@@ -28,11 +28,12 @@ const techs = [
     { name: 'SwiftUI', color: '#0066FF', lines: 2 },
     { name: 'Metal', color: '#888888', lines: 1 },
     { name: 'Three.js', color: '#049EF4', lines: 1 },
-    { name: 'UIKit', color: '#2396F3', lines: 1 },
+    { name: 'GLSL', color: '#5586A4', lines: 1 },
+    { name: 'WebGL', color: '#990000', lines: 1 },
+    { name: 'C++', color: '#00599C', lines: 1 },
+    { name: 'JavaScript', color: '#F7DF1E', lines: 2 },
     { name: 'Combine', color: '#FF6B35', lines: 1 },
-    { name: 'CoreData', color: '#5AC8FA', lines: 2 },
-    { name: 'ARKit', color: '#FF9500', lines: 1 },
-    { name: 'SceneKit', color: '#34C759', lines: 2 }
+    { name: 'ARKit', color: '#FF9500', lines: 1 }
 ];
 
 class Particle {
@@ -87,27 +88,7 @@ class Particle {
                 text2.setAttribute('font-family', 'Arial');
                 text2.textContent = 'UI';
                 svg.appendChild(text2);
-            } else if (tech.name === 'CoreData') {
-                const text1 = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-                text1.setAttribute('x', '50');
-                text1.setAttribute('y', '50');
-                text1.setAttribute('font-size', '18');
-                text1.setAttribute('font-weight', 'bold');
-                text1.setAttribute('text-anchor', 'middle');
-                text1.setAttribute('font-family', 'Arial');
-                text1.textContent = 'Core';
-                svg.appendChild(text1);
-                
-                const text2 = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-                text2.setAttribute('x', '50');
-                text2.setAttribute('y', '65');
-                text2.setAttribute('font-size', '18');
-                text2.setAttribute('font-weight', 'bold');
-                text2.setAttribute('text-anchor', 'middle');
-                text2.setAttribute('font-family', 'Arial');
-                text2.textContent = 'Data';
-                svg.appendChild(text2);
-            } else if (tech.name === 'SceneKit') {
+            } else if (tech.name === 'JavaScript') {
                 const text1 = document.createElementNS('http://www.w3.org/2000/svg', 'text');
                 text1.setAttribute('x', '50');
                 text1.setAttribute('y', '50');
@@ -115,7 +96,7 @@ class Particle {
                 text1.setAttribute('font-weight', 'bold');
                 text1.setAttribute('text-anchor', 'middle');
                 text1.setAttribute('font-family', 'Arial');
-                text1.textContent = 'Scene';
+                text1.textContent = 'Java';
                 svg.appendChild(text1);
                 
                 const text2 = document.createElementNS('http://www.w3.org/2000/svg', 'text');
@@ -125,7 +106,7 @@ class Particle {
                 text2.setAttribute('font-weight', 'bold');
                 text2.setAttribute('text-anchor', 'middle');
                 text2.setAttribute('font-family', 'Arial');
-                text2.textContent = 'Kit';
+                text2.textContent = 'Script';
                 svg.appendChild(text2);
             }
         }
