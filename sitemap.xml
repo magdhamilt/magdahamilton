@@ -4,15 +4,15 @@
   <!-- Main Portfolio Page -->
   <url>
     <loc>https://magdahamilton.dev/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   
-  <!-- Ocean Solaris Project -->
+  <!-- Solaris Project -->
   <url>
     <loc>https://magdahamilton.dev/solaris.html</loc>
-    <lastmod>2025-11-01</lastmod>
+    <lastmod>2026-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
