@@ -41,8 +41,8 @@
       "alternateName": ["Magdalena Hamilton", "magdhamilt"],
       "givenName": "Magdalena",
       "familyName": "Hamilton",
-      "jobTitle": ["Graphics & Design Engineer", "Creative Technologist", "Founder"],
-      "description": "Graphics & Design Engineer and Creative Technologist exploring the intersection of interaction design, computation, and systems thinking.",
+      "jobTitle": ["Graphics & Design Engineer", "Creative Technologist"],
+      "description": "Graphics & Design Engineer and Creative Technologist exploring the intersection of interaction design, computation, and systems thinking. Founder of Velvet Disruption.",
       "url": "https://magdahamilton.dev",
       "image": "https://magdahamilton.dev/images/og-image.jpg",
       "email": "hi@magdahamilton.dev",
@@ -52,58 +52,52 @@
         "https://www.instagram.com/mhamilton.py"
       ],
       "knowsAbout": [
-        "WebGL", "Three.js", "GLSL", "Swift", "SwiftUI", "Metal", 
-        "iOS Development", "Creative Coding", "Interaction Design", 
+        "WebGL", "Three.js", "GLSL", "Swift", "SwiftUI", "Metal",
+        "iOS Development", "Creative Coding", "Interaction Design",
         "Computational Design", "Graphics Programming"
       ],
       "worksFor": {
-        "@type": "Organization",
         "@id": "https://velvetdisruption.com/#organization"
       },
-      "founder": [
-        {"@id": "https://velvetdisruption.com/#organization"}
-      ],
-      "makesOffer": [
-        {"@id": "https://solaris.observer/#project"},
-        {"@id": "https://tensilk.app/#project"}
-      ]
+      "mainEntityOfPage": {
+        "@id": "https://magdahamilton.dev/#website"
+      }
     },
     {
       "@type": "Organization",
       "@id": "https://velvetdisruption.com/#organization",
       "name": "Velvet Disruption",
       "url": "https://velvetdisruption.com",
-      "description": "A creative studio dedicated to exploring the edges of technology and design.",
+      "description": "A creative technology studio exploring the edges of interaction design and computation.",
       "founder": {
         "@id": "https://magdahamilton.dev/#person"
       },
       "sameAs": [
-        "https://magdahamilton.dev"
+        "https://github.com/velvet-disruption"
       ]
     },
     {
-      "@type": "SoftwareApplication",
-      "@id": "https://solaris.observer/#project",
+      "@type": "WebApplication",
+      "@id": "https://solaris.observer/#creativework",
       "name": "Solaris",
       "url": "https://solaris.observer",
-      "description": "An interactive meditation on consciousness and the unknowable. Built with WebGL, Three.js, and GLSL.",
-      "applicationCategory": "Creative",
-      "author": {
-        "@id": "https://magdahamilton.dev/#person"
-      },
+      "description": "An interactive WebGL meditation on consciousness and the unknowable, inspired by Stanisław Lem's novel.",
+      "applicationCategory": "Interactive Art",
       "creator": {
         "@id": "https://magdahamilton.dev/#person"
-      }
+      },
+      "publisher": {
+        "@id": "https://velvetdisruption.com/#organization"
+      },
+      "datePublished": "2025-01-22",
+      "keywords": ["WebGL", "Three.js", "GLSL", "interactive art", "creative technology"]
     },
     {
       "@type": "SoftwareApplication",
-      "@id": "https://tensilk.app/#project",
+      "@id": "https://tensilk.app/#creativework",
       "name": "Tensilk",
       "url": "https://tensilk.app",
       "operatingSystem": "iOS",
-      "author": {
-        "@id": "https://magdahamilton.dev/#person"
-      },
       "creator": {
         "@id": "https://magdahamilton.dev/#person"
       }
@@ -122,7 +116,7 @@
     }
   ]
 }
-</script>
+    </script>
 </head>
 <body>
     <nav>
@@ -133,7 +127,7 @@
             </ul>
         </div>
         <div class="contact-icons">
-            <a href="/cdn-cgi/l/email-protection#e88081a885898f8c8980898581849c8786c68c8d9e" aria-label="Email">
+            <a href="mailto:hi@magdahamilton.dev" aria-label="Email">
                 <svg viewBox="0 0 24 24">
                     <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                 </svg>
