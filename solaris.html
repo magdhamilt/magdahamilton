@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solaris - Interactive Ocean Simulation | Magda Hamilton</title>
+    <title>Solaris - Interactive WebGL Ocean Simulation | Magda Hamilton</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="An interactive WebGL simulation inspired by Stanisław Lem's Solaris. Experience a sentient ocean planet that responds to observation with emergent formations and gravitational engineering.">
-    <meta name="keywords" content="Solaris, Stanisław Lem, WebGL simulation, Three.js, ocean simulation, interactive art, creative technology, GLSL shaders, Magda Hamilton">
+    <meta name="description" content="An interactive WebGL simulation inspired by Stanisław Lem's Solaris. Experience a sentient ocean planet with emergent formations, gravitational engineering, and observation-responsive behavior built with Three.js and custom GLSL shaders.">
+    <meta name="keywords" content="Solaris, Stanisław Lem, WebGL simulation, Three.js, ocean simulation, interactive art, creative technology, GLSL shaders, Magda Hamilton, three-body problem, creative coding, generative art">
     <meta name="author" content="Magda Hamilton">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://magdahamilton.dev/solaris.html">
-    <meta property="og:title" content="Solaris - Interactive Ocean Simulation">
-    <meta property="og:description" content="An interactive WebGL simulation inspired by Stanisław Lem's Solaris. Experience a sentient ocean planet that responds to observation.">
-    <meta property="og:image" content="https://magdahamilton.dev/images/solaris1.jpg">
+    <meta property="og:title" content="Solaris - Interactive WebGL Ocean Simulation">
+    <meta property="og:description" content="An interactive WebGL simulation inspired by Stanisław Lem's Solaris. A sentient ocean that responds to observation, stabilizes chaotic orbits, and generates alien formations.">
+    <meta property="og:image" content="https://magdahamilton.dev/images/solaris-og.jpg">
     <meta property="og:site_name" content="Magda Hamilton">
+    <meta property="article:author" content="Magda Hamilton">
+    <meta property="article:published_time" content="2025-01-22">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://magdahamilton.dev/solaris.html">
-    <meta name="twitter:title" content="Solaris - Interactive Ocean Simulation">
-    <meta name="twitter:description" content="An interactive WebGL simulation inspired by Stanisław Lem's Solaris. Experience a sentient ocean planet that responds to observation.">
-    <meta name="twitter:image" content="https://magdahamilton.dev/images/solaris1.jpg">
+    <meta name="twitter:title" content="Solaris - Interactive WebGL Ocean Simulation">
+    <meta name="twitter:description" content="An interactive WebGL simulation inspired by Stanisław Lem's Solaris. A sentient ocean that responds to observation and stabilizes chaotic orbits.">
+    <meta name="twitter:image" content="https://magdahamilton.dev/images/solaris-og.jpg">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://magdahamilton.dev/solaris.html">
@@ -33,23 +35,22 @@
     
     <link rel="stylesheet" href="styles.css">
     
+    <!-- Enhanced Schema.org markup -->
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "@id": "https://solaris.observer/#creativework",
-  "name": "Solaris",
-  "description": "An interactive WebGL simulation inspired by Stanisław Lem's Solaris. A meditation on consciousness, observation, and the unknowable.",
-  "url": "https://solaris.observer",
-  "image": "https://magdahamilton.dev/images/solaris1.jpg",
+  "@type": "TechArticle",
+  "headline": "Solaris: Building an Interactive Simulation of Alien Consciousness",
+  "description": "An interactive WebGL simulation inspired by Stanisław Lem's Solaris, featuring emergent formations, gravitational engineering, and observation-responsive behavior.",
+  "image": "https://magdahamilton.dev/images/solaris-og.jpg",
   "datePublished": "2025-01-22",
-  "applicationCategory": "Interactive Art",
-  "browserRequirements": "Requires WebGL support",
-  "creator": {
+  "dateModified": "2026-01-24",
+  "author": {
     "@type": "Person",
     "@id": "https://magdahamilton.dev/#person",
     "name": "Magda Hamilton",
     "url": "https://magdahamilton.dev",
+    "jobTitle": "Graphics & Design Engineer",
     "sameAs": [
       "https://github.com/magdahamilton",
       "https://linkedin.com/in/magdahamilton"
@@ -61,6 +62,18 @@
     "name": "Velvet Disruption",
     "url": "https://velvetdisruption.com"
   },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://magdahamilton.dev/solaris.html"
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "Solaris",
+    "url": "https://solaris.observer",
+    "applicationCategory": "Interactive Art",
+    "operatingSystem": "Web Browser",
+    "browserRequirements": "Requires WebGL support"
+  },
   "isBasedOn": {
     "@type": "Book",
     "name": "Solaris",
@@ -70,13 +83,9 @@
     },
     "datePublished": "1961"
   },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "url": "https://magdahamilton.dev/solaris.html",
-    "name": "Solaris Project - Magda Hamilton Portfolio"
-  },
-  "keywords": "WebGL, Three.js, GLSL, interactive simulation, creative technology, Stanisław Lem",
-  "inLanguage": "en"
+  "keywords": "WebGL, Three.js, GLSL, interactive simulation, creative technology, three-body problem, generative art",
+  "proficiencyLevel": "Expert",
+  "dependencies": "Three.js r128, WebGL 2.0, GLSL ES 3.0"
 }
     </script>
 </head>
@@ -84,7 +93,7 @@
     <nav>
         <a href="index.html" class="back-link">← BACK TO PORTFOLIO</a>
         <div class="contact-icons">
-            <a href="/cdn-cgi/l/email-protection#365e5f765b575152575e575b5f5a42595818525340" aria-label="Email">
+            <a href="mailto:hi@magdahamilton.dev" aria-label="Email">
                 <svg viewBox="0 0 24 24">
                     <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                 </svg>
@@ -130,67 +139,167 @@
             </div>
         </div>
 
-        <h2>The Concept</h2>
+        <!-- CONCEPT SECTION -->
+        <h2 id="concept">The Concept</h2>
         <p>
-            In Stanisław Lem's novel <em>Solaris</em>, scientists discover a planet-sized ocean that thinks—but operates on logic so alien that despite decades of research, humans cannot communicate with it or understand its purpose. It generates elaborate structures, materializes visitors' deepest memories, and maintains a stable orbit around two suns through incomprehensible means.
+            In Stanisław Lem's 1961 novel <em>Solaris</em>, scientists discover a planet-sized ocean that thinks—but operates on logic so alien that despite decades of research, humans cannot communicate with it or understand its purpose. It generates elaborate structures, materializes visitors' deepest memories, and maintains a stable orbit around two suns through incomprehensible means.
         </p>
         <p>
             This project brings that entity to life: a living WebGL simulation that resists comprehension. The ocean responds to observation, but unpredictably. It creates formations that emerge and dissolve on their own timeline. It performs planetary-scale engineering that we can only glimpse through surface shimmer.
         </p>
-
-        <h2>What Makes Something Truly Alien?</h2>
         <p>
             Most "alien" experiences in digital media are just exotic versions of familiar patterns. Solaris explores something harder: consciousness that operates on fundamentally different logic. The ocean isn't performing for you—it simply exists, and you're privileged to witness its incomprehensible work.
         </p>
 
+        <!-- THREE-BODY PROBLEM SECTION -->
+        <h2 id="three-body-problem">Solving the Three-Body Problem</h2>
+        <p>
+            One of the most fascinating aspects of Lem's novel: the planet orbits two suns—a configuration that should be gravitationally chaotic. In 1687, Newton formulated universal gravitation and could predict the motion of two celestial bodies perfectly. Then he tried to add a third body. The math disintegrated.
+        </p>
+        <p>
+            For two centuries, mathematicians sought a general solution. Euler found specific stable configurations. Lagrange discovered five equilibrium points. Then in the 1880s, Henri Poincaré shattered the hope of a complete solution: he discovered that infinitesimally small changes in starting positions produced wildly different outcomes. The trajectories tangled into what he called "homoclinic tangles"—so complex they could never be captured by simple equations. Poincaré had discovered chaos itself.
+        </p>
+        <p>
+            But Lem imagined something extraordinary: the ocean actively stabilizes its orbit through continuous mass redistribution. It doesn't solve the equations—it rewrites them constantly, treating the three-body problem not as a mathematical puzzle requiring an elegant solution, but as a control problem demanding constant intervention.
+        </p>
+
         <div class="version-section">
-            <h3>The Living Surface</h3>
-            <p>Multi-layered wave displacement with Fractal Brownian Motion creates an ocean surface that never repeats the same pattern. Viscosity varies procedurally—some areas flow like water, others undulate like gelatin. Subsurface scattering and bioluminescence pulse beneath translucent regions.</p>
+            <h3>Implementing Gravitational Chaos</h3>
+            <p>I created two suns with fundamentally unstable orbits. The red giant moves slowly (0.08 rad/s) along a 250-unit radius orbit, while the blue dwarf races faster (0.12 rad/s) at 220 units. Their gravitational interference creates chaotic perturbations:</p>
+            <pre><code>const sunInterference = Math.sin(redSunAngle - blueSunAngle) * 
+    Math.cos(time * 0.3);
+const resonanceEffect = Math.sin(time * 0.17) * 
+    Math.cos(time * 0.23);</code></pre>
+            <p>These competing frequencies would normally cause 8% orbital deviations—catastrophic for any planet. But then the Ocean intervenes, counteracting 95% of the chaos and leaving only 5% visible as surface shimmer:</p>
+            <pre><code>const oceanCorrectionFactor = 0.95;
+const stabilizedChaosX = chaosX * (1.0 - oceanCorrectionFactor);</code></pre>
         </div>
 
         <div class="version-section">
-            <h3>Emergent Formations</h3>
-            <p>Five types of structures spawn spontaneously: radially symmetric Symmetriads, towering Asymmetriads, undulating Mimoids, skeletal Vertebrids, and sprawling Extensors. Each has a complete lifecycle—emergence, maturation, dissolution—weighted by rarity as described in Lem's novel. They "breathe" through subtle internal motion, suggesting processes we can only glimpse.</p>
+            <h3>Visualizing the Engineering</h3>
+            <p>The real challenge was making invisible work visible. In the fragment shader, I created "engineering zones" that appear where the Ocean is working hardest. When both suns align, pulsing patterns appear on the surface—FBM-based noise that simulates the Ocean's calculations made manifest:</p>
+            <pre><code>float redEngineering = calculateEngineeringZone(uRedSunPos, uRedSunColor, 0);
+float blueEngineering = calculateEngineeringZone(uBlueSunPos, uBlueSunColor, 1);</code></pre>
+            <p>Where engineering zones overlap, they blend into purple—the Ocean simultaneously stabilizing against both gravitational pulls, its work visible in the interference pattern.</p>
+        </div>
+
+        <!-- OCEAN RENDERING SECTION -->
+        <h2 id="ocean-surface">The Living Surface</h2>
+        <p>
+            The ocean uses custom vertex and fragment shaders to achieve its unique gelatinous appearance. Multi-layered wave displacement with Fractal Brownian Motion creates a surface that never repeats the same pattern.
+        </p>
+
+        <div class="version-section">
+            <h3>Vertex Displacement</h3>
+            <p>Multi-frequency wave layers combine with FBM for organic, non-repeating motion:</p>
+            <pre><code>vec3 displacement = vec3(0.0);
+
+// Multi-frequency wave layers
+for (int i = 0; i < 3; i++) {
+    float freq = 3.0 + float(i) * 2.0;  // 3.0, 5.0, 7.0 Hz
+    float amp = 1.0 / (float(i) + 1.0);
+    displacement.y += sin(position.x * freq + time) * amp;
+    displacement.y += cos(position.z * freq + time * 0.8) * amp;
+}
+
+// Add Fractal Brownian Motion for organic variation
+displacement.y += fbm(position.xz * 0.1 + time * 0.05) * 2.0;</code></pre>
         </div>
 
         <div class="version-section">
-            <h3>Observation Response</h3>
-            <p>The ocean notices when you're watching. Hover over the surface and it responds with localized rippling patterns and increased luminosity. But the behavior changes unpredictably every 15-30 seconds: sometimes curious, reaching toward your cursor; sometimes aloof; occasionally recoiling, as if disturbed by observation. You're studying it, but it's also studying you.</p>
+            <h3>Dynamic Viscosity</h3>
+            <p>Procedural noise controls viscosity variations across the surface. High viscosity regions appear gel-like with lower transparency and slower wave motion. Low viscosity regions flow like liquid with subsurface scattering and faster motion. Transition zones use Perlin noise for smooth gradients.</p>
         </div>
 
-        <h2>The Three-Body Problem</h2>
+        <div class="version-section">
+            <h3>Fragment Shader Effects</h3>
+            <p>The fragment shader implements several key visual effects: subsurface scattering with exponential attenuation based on depth, Fresnel edge glow that intensifies in liquid regions, animated bioluminescence using 3D Simplex noise, and chromatic aberration that creates subtle "wrong physics" light refraction—reinforcing the alien nature of the ocean.</p>
+        </div>
+
+        <!-- FORMATIONS SECTION -->
+        <h2 id="formations">Emergent Formations</h2>
         <p>
-            One of the most fascinating aspects of Lem's novel: the planet orbits two suns—a configuration that should be gravitationally chaotic. The three-body problem, proven unsolvable by Poincaré, shows that infinitesimally small changes in starting positions produce wildly different outcomes.
-        </p>
-        <p>
-            But Lem imagined the ocean actively stabilizing its orbit through continuous mass redistribution—treating it not as a mathematical puzzle, but as a real-time control problem. The ocean doesn't solve the equations; it rewrites them constantly.
-        </p>
-        <p>
-            I implemented the gravitational chaos, then showed the ocean counteracting 95% of it in real-time. The remaining 5% appears as surface shimmer—proof of invisible work being done. Engineering zones pulse when both suns align, creating interference patterns that suggest an alien intelligence performing planetary-scale calculations you can never fully witness.
+            Five types of structures spawn spontaneously, each with a complete lifecycle—emergence, maturation, dissolution—weighted by rarity as described in Lem's novel:
         </p>
 
-        <h2>The Design Philosophy</h2>
+        <div class="version-section">
+            <h3>Formation Types</h3>
+            <p><strong>Symmetriads</strong> — Perfect radial symmetry, 6-12 arms, slow rotation. The most common formation.</p>
+            <p><strong>Asymmetriads</strong> — Towering vertical structures, 50-100m height, irregular shapes that defy easy classification.</p>
+            <p><strong>Mimoids</strong> — Undulating organic forms with fluid motion and membrane-like surfaces.</p>
+            <p><strong>Vertebrids</strong> — Skeletal lattice structures with intricate internal geometry.</p>
+            <p><strong>Extensors</strong> — The rarest formation. Sprawling horizontal networks with branch-like growth patterns.</p>
+            <pre><code>const spawnWeights = {
+    symmetriad: 0.35,    // Most common
+    mimoid: 0.25,
+    asymmetriad: 0.20,
+    vertebrid: 0.12,
+    extensor: 0.08       // Rarest
+};</code></pre>
+            <p>Each formation "breathes" through subtle internal motion, rendered with translucent shaders and flowing 3D noise patterns, suggesting processes we can only glimpse.</p>
+        </div>
+
+        <!-- OBSERVATION SECTION -->
+        <h2 id="observation">Observation Response</h2>
+        <p>
+            The ocean notices when you're watching. Raycasting detects where the camera looks at the surface, and shader uniforms create localized "awareness" that spreads from observation points. Hover over the surface and it responds with rippling patterns and increased luminosity.
+        </p>
+        <p>
+            But the behavior changes unpredictably every 15-30 seconds: sometimes curious, reaching toward your cursor; sometimes aloof, barely acknowledging you; occasionally recoiling, as if disturbed by observation. This unpredictability reflects Lem's concept—you're studying it, but it's also studying you.
+        </p>
+
+        <div class="version-section">
+            <h3>How to Interact</h3>
+            <p><strong>Movement:</strong> WASD or Arrow Keys. When close (< 8 units), walk on the surface. When far (> 8 units), orbit around the planet.</p>
+            <p><strong>View:</strong> Mouse drag to look around.</p>
+            <p><strong>Zoom:</strong> Mouse wheel, or Q/Space to zoom out, E/Shift to zoom in.</p>
+            <p>Move your cursor slowly to see the Ocean "track" your movements with a delay. The longer you hover in one spot, the more intensely it responds.</p>
+        </div>
+
+        <!-- ATMOSPHERE SECTION -->
+        <h2 id="atmosphere">Atmospheric Effects</h2>
+        <p>
+            The simulation includes a multi-layered atmosphere: dynamic exponential fog that responds to sun position, shader-based surface mist with Simplex noise distortion, and periodic plasma eruptions—energy fountains with turbulent curl noise, temperature-based color gradients, and realistic particle physics.
+        </p>
+        <p>
+            The starfield uses three depth layers with realistic stellar classification (O, B, A, F, G, K, M spectral types) and subtle parallax as the camera moves. Bioluminescence manifests as internal light orbs with pulsing shaders and electric discharge effects beneath the surface.
+        </p>
+
+        <!-- PERFORMANCE SECTION -->
+        <h2 id="performance">Performance</h2>
+        <p>
+            The simulation uses a three-tier LOD system that automatically adjusts ocean surface complexity based on camera distance (128, 64, or 32 segments). Instanced geometries for plasma fountains and formations minimize draw calls. Shader optimizations include varying caching, selective uniform updates, and precision management.
+        </p>
+        <p>
+            Results: consistent 60fps on high-end desktops at 1440p, 60fps on mid-range hardware at 1080p, and 30-60fps on modern mobile devices with automatic quality adjustment.
+        </p>
+
+        <!-- PHILOSOPHY SECTION -->
+        <h2 id="philosophy">Design Philosophy</h2>
         <p>
             Unlike most interactive experiences, Solaris resists easy comprehension. There are no objectives, no progression systems, no explicit tutorials. The ocean operates on its own timeline. Formations emerge and dissolve without player input. This autonomy is crucial—you're not controlling anything, you're observing something that exists beyond your influence.
         </p>
         <p>
             Not everything needs to be understood, explained, or mastered. Sometimes the goal is simply to create a space where wonder can exist—where we can confront our own inability to comprehend the truly alien.
         </p>
+        <p>
+            The result is a simulation that captures what makes Lem's Ocean so unsettling: it doesn't communicate through language or symbols. It communicates through work—through the constant, tireless effort of keeping its world stable. Every glowing pattern on the surface, every pulsing engineering zone, every shimmer of residual chaos is the Ocean saying something we can observe but never fully understand.
+        </p>
 
         <div class="tech-list">
             <span class="tech-tag">Three.js r128</span>
-            <span class="tech-tag">WebGL / GLSL</span>
+            <span class="tech-tag">WebGL 2.0</span>
+            <span class="tech-tag">GLSL ES 3.0</span>
             <span class="tech-tag">Custom Shaders</span>
             <span class="tech-tag">Fractal Brownian Motion</span>
+            <span class="tech-tag">Simplex Noise</span>
             <span class="tech-tag">Raycasting</span>
+            <span class="tech-tag">Instanced Rendering</span>
         </div>
-
-        <p style="text-align: center; margin-top: 2rem;">
-            <a href="solaris-technical.html" style="color: #666; text-decoration: none; border-bottom: 1px solid #666;">View technical documentation →</a>
-        </p>
 
         <div class="cta">
             <a href="https://solaris.observer" target="_blank" rel="noopener noreferrer" class="btn">Experience Solaris</a>
+            <a href="https://github.com/magdahamilton/ocean-solaris" target="_blank" rel="noopener noreferrer" class="btn" style="background: transparent; color: #2a2a2a; border: 2px solid #2a2a2a; margin-left: 1rem;">View Source on GitHub</a>
         </div>
     </div>
 

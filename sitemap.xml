@@ -4,25 +4,17 @@
   <!-- Main Portfolio Page -->
   <url>
     <loc>https://magdahamilton.dev/</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   
-  <!-- Solaris Project -->
+  <!-- Solaris Project (comprehensive page) -->
   <url>
     <loc>https://magdahamilton.dev/solaris.html</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Solaris Technical Article -->
-  <url>
-    <loc>https://magdahamilton.dev/solaris-process-article.html</loc>
-    <lastmod>2024-11-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
   
 </urlset>
