@@ -63,7 +63,7 @@ This portfolio explores the intersection of design and engineering through inter
 ### Navigation
 - Fixed header with blur backdrop
 - Smooth scroll navigation
-- Contact icons (Email, LinkedIn, GitHub)
+- Contact icons (Email, LinkedIn, GitHub, Crunchbase)
 - Responsive mobile menu
 
 ## Styling Philosophy
