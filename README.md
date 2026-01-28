@@ -8,9 +8,9 @@ This portfolio explores the intersection of design and engineering through inter
 
 ## Screenshots
 
-![Screenshot 1](images/screenshot1.jpg)
-![Screenshot 2](images/screenshot2.jpg)
-![Screenshot 3](images/screenshot3.jpg)
+<img src="images/screenshot1.jpg" alt="Screenshot 1">
+<img src="images/screenshot2.jpg" alt="Screenshot 2">
+<img src="images/screenshot3.jpg" alt="Screenshot 3">
 
 ## Features
 
