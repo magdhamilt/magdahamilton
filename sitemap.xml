@@ -20,7 +20,7 @@
   <!-- Publications -->
   <url>
     <loc>https://magdahamilton.dev/publications.html</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -33,13 +33,12 @@
     <priority>0.8</priority>
   </url>
  
-  <!-- Uncomment once the paper PDF is uploaded.
+  <!-- Solaris Accepted Author Manuscript -->
   <url>
-    <loc>https://magdahamilton.dev/papers/hamilton-2026-solaris-unknowability.pdf</loc>
-    <lastmod>2026-08-28</lastmod>
+    <loc>https://magdahamilton.dev/publications/solaris-aam.pdf</loc>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
-  -->
  
 </urlset>
